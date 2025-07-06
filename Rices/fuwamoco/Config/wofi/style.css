@@ -1,0 +1,25 @@
+*{ /* mainly text settings here */
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 20px;
+	color: #7287fd;
+}
+
+/* Background of main window */
+#window {
+	background-color: #222423;
+}
+
+#outer-box {
+	border: 5px solid #f065bd;
+	padding: 15px;
+}
+/* set the colour for the search bar and selected entry */
+#entry:selected, #input {
+	background-color: #111211;
+}
+
+/* add some spacing */
+#input, #window, #outer-box {
+	margin: 5px;
+}
