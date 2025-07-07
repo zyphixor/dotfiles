@@ -15,6 +15,7 @@ __RESET='\033[0m' # Regular boring text
 # Create a function to tell the user what argum- I mean disagreements the program has (im not an arguer)
 usage() {
 	printf "Usage: $0 [OPTION]\n"
+	printf " -m, --minimalist A simplistic, black and white theme.\n"
 	printf " -t, --teto	A red, Kasane Teto focused rice.\n"
         printf " -f, --fuwamoco	A pink and blue Fuwamoco themed rice.\n"
 	exit 1 # Exit with code 1, user did not input any command line arguments
@@ -162,6 +163,7 @@ installdots() {
 
 # ---- Command Line Options ----
 case "$1" in
+	-m|--minimalist) dotfiles_sel="minimalist" ;;
 	-t|--teto) dotfiles_sel="teto" ;;
 	-f|--fuwamoco) dotfiles_sel="fuwamoco" ;;
 	*) # Display usage info if no correct argument is passed.
