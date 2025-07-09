@@ -1,0 +1,32 @@
+{
+	"layer":"top",
+	"modules-left": ["hyprland/workspaces"],
+	"modules-center": ["clock", "privacy"],
+	"modules-right": ["pulseaudio", "battery", "battery#bat1"],
+	"battery": {
+		"bat": "BAT0",
+		"format": "INT {capacity}% ",
+		"interval": 60
+	},
+	"battery#bat1": {
+		"bat": "BAT1",
+		"interval": 60,
+		"format": "EXT {capacity}% "
+	},
+
+	"clock": {
+		"format": "{:%a %d %b // %I:%M %p}"
+	},
+	"pulseaudio": {
+    		"format": "{volume}% {icon}",
+		"format-muted": "0% {icon}",
+    		"format-bluetooth": "{volume}% {icon}",
+		"format-icons": {
+			"default": "",
+			"default-muted": ""
+		},
+		"on-click": "pavucontrol"
+	}
+
+
+}

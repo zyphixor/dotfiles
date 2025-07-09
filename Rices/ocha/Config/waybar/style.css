@@ -1,0 +1,83 @@
+* {
+    font-family: "JetBrainsMono Nerd Font Propo";
+    font-weight: bold;
+    font-size: 14px;
+}
+window#waybar {
+    background: transparent;
+    /* main window transparent background */
+}
+
+#workspaces button,
+#privacy,
+#bluetooth,
+#clock,
+#tray,
+#cpu,
+#memory,
+#pulseaudio,
+#gamemode,
+#battery,
+#custom-updates {
+    /*text-shadow: 1px 1px 2px rgb(0, 0, 0);*/
+    /* text shadow, offset-x | offset-y | blur-radius | color */
+    background: #2a2f26;
+    /* background color */
+    margin: 10px 4px 4px 4px;
+    /* empty spaces around */
+    padding: 4px 10px;
+    /* extend pill size, vertical then horizontal */
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.185);
+    border: solid 2px; 
+    border-color: #59664e;
+    /* pill background shadows */
+    border-radius: 25px; /*Default 5*/
+    /* rounded corners */
+    color: #d7e2c9;
+}
+
+/* extend empty space on both side of the bar,
+ * value from ~/.config/hypr/hyprland.conf
+ * gaps_out (8px) + border size (2px) = 10px */
+
+#workspaces {
+    padding: 0 3px;
+}
+
+#workspaces button {
+    /* fit with pill padding, 0px for not haveing duped vertical padding, 4px to make a square (4px value from module padding: ...#clock {padding >>4px<< 10px}) */
+    margin-left: 3px;
+    transition-property:
+        background-color;
+    transition-duration: 0.1s;
+    font-size: 10px;
+    background: #2a2f26;
+    color: #d7e2c9;
+}
+
+#workspaces button.empty {
+    padding: 0px 10px;
+}
+
+#workspaces button:first-child {
+    margin-left: 0;
+}
+
+#workspaces button.active {
+    /* active workspace */
+    background: #b0e0a7;
+    color: #2f5c36;
+
+}
+
+/* hovered workspace color */
+#workspaces button:hover {
+    background: #809b73;
+}
+/*
+@keyframes blink {
+    to {
+        background-color: #e64553;
+    }
+}
+*/

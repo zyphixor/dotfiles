@@ -1,0 +1,28 @@
+*{ /* mainly text settings here */
+	font-family: monospace;
+	border-radius: 25px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #d7e2c9;
+}
+
+/* Background of main window */
+#window {
+	background-color: rgba(89, 102, 78, 0.99);
+	border-radius: 50px;
+}
+#outer-box {
+	background-color: #2a2f26;
+	padding: 18px;
+	border-radius: 60px;
+}
+#entry:selected, #input {
+	background-color: #3f4a37;
+	border-radius: 12px;
+	outline: none;
+}
+
+/* add some spacing */
+#input, #window, #outer-box {
+	margin: 10px;
+}
