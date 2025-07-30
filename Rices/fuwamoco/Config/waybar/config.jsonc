@@ -18,7 +18,7 @@
 		"format": "{:%a %d %b // %I:%M %p}",
 		"tooltip": false
 	},
-	"pulseaudio": {
+ 	"pulseaudio": {
     		"format": "{volume}% {icon}",
 		"format-muted": "0% {icon}",
     		"format-bluetooth": "{volume}% {icon}",
