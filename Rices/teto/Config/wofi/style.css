@@ -1,25 +1,28 @@
 *{ /* mainly text settings here */
 	font-family: monospace;
+	border-radius: 25px;
 	font-weight: bold;
 	font-size: 20px;
-	color: #ff3737;
+	color: #c95e48;
 }
 
 /* Background of main window */
 #window {
-	background-color: #2d0000;
+	background-color: rgba(201, 94, 72, 0.99);
+	border-radius: 70px;
 }
-
 #outer-box {
-	border: 5px solid #ff3737;
-	padding: 15px;
+	background-color: #391313;
+	padding: 18px;
+	border-radius: 60px;
 }
-/* set the colour for the search bar and selected entry */
 #entry:selected, #input {
-	background-color: #140000;
+	background-color: #260d0d;
+	border-radius: 12px;
+	outline: none;
 }
 
 /* add some spacing */
 #input, #window, #outer-box {
-	margin: 5px;
+	margin: 10px;
 }

@@ -21,7 +21,7 @@ window#waybar {
 #custom-updates {
     /*text-shadow: 1px 1px 2px rgb(0, 0, 0);*/
     /* text shadow, offset-x | offset-y | blur-radius | color */
-    background: #2d0000;
+    background: #391313;
     /* background color */
     margin: 10px 4px 4px 4px;
     /* empty spaces around */
@@ -31,8 +31,8 @@ window#waybar {
     /* pill background shadows */
     border-radius: 8px; /*Default 5*/
     /* rounded corners */
-    color: #A50000;
-    border: 2px solid #ff3737;  
+    color: #c95e48;
+    border: 2px solid #bf4040;  
 }
 
 /* extend empty space on both side of the bar,
@@ -51,7 +51,7 @@ window#waybar {
         background-color, border-left-color, border-right-color;
     transition-duration: 0.1s;
     font-size: 10px;
-    color: #FF3737;
+    color: #d17761;
 }
 
 #workspaces button.empty {
@@ -64,12 +64,12 @@ window#waybar {
 
 #workspaces button.active {
     /* active workspace */
-    background: #8a0707;
+    background: #732626;
 
 }
 
 #workspaces button:hover {
-    background: #ba4343;
+    background: #260d0d;
     /* hovered workspace color */
 }
 
