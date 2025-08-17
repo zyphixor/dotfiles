@@ -29,7 +29,7 @@ window#waybar {
     /* extend pill size, vertical then horizontal */
     box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.185);
     /* pill background shadows */
-    border-radius: 8px; /*Default 5*/
+    border-radius: 25px; /*Default 5*/
     /* rounded corners */
     color: #7287fd;
     border: 2px solid #f065bd;  
