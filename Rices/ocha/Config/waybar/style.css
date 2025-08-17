@@ -51,8 +51,6 @@ window#waybar {
         background-color;
     transition-duration: 0.1s;
     font-size: 10px;
-    background: #2a2f26;
-    color: #d7e2c9;
 }
 
 #workspaces button.empty {
@@ -65,9 +63,7 @@ window#waybar {
 
 #workspaces button.active {
     /* active workspace */
-    background: #b0e0a7;
-    color: #2f5c36;
-
+    border-color: #59664e #59664e #b0e0a7 #59664e; 
 }
 
 /* hovered workspace color */
